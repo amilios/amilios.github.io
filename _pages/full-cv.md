@@ -13,10 +13,9 @@ h4 { padding-top: 2px; margin-top: 2px; }
 You can view my full CV in PDF format [here](https://atmilios.com/full-cv.pdf).
 {: .notice}
 
-## Skills &amp; Abilities
+## Knowledgeable about...
 
-* deep learning and neural networks, specifically CNNs, RNNs, Attention-based networks,
-and Adversarial Training
+* deep learning and neural networks, specifically large language models (BERT, RoBERTa, GPT-series)
 * entrepreneurship and innovation (through startup, Shad Valley, Stanford’s University
 Innovation Fellows Program, and presidential role in Dalhousie Entrepreneurship Society)
 * full-stack web design and web system architecture (Python, PHP, WordPress, PostgreSQL,
