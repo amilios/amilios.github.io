@@ -9,6 +9,9 @@ permalink: /full-cv/
   h3 { text-align: left; padding-left: 15px; }
   h4 { text-align: left; padding-left: 30px; }
   p { text-align: left; padding-left: 45px; }
+  ul {
+      list-style: square inside url('data:image/gif;base64,R0lGODlhBQAKAIABAAAAAP///yH5BAEAAAEALAAAAAAFAAoAAAIIjI+ZwKwPUQEAOw==');
+  }
 </style>
 
 You can view my full CV in PDF format [here]({{ site.url }}/files/full-cv.pdf).
