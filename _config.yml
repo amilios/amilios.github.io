@@ -20,13 +20,13 @@ avatar: /images/profile.png
 
 # Includes an icon in the footer for each username you enter
 footer-links:
-  googlescholar    : "https://scholar.google.com/citations?user=5sCPodgAAAAJ"
+  googlescholar    : "5sCPodgAAAAJ"
   email            : "aristides.milios@gmail.com"
   facebook         : "aristides.milios"
   github           : "amilios"
   instagram        : "atmilios"
   linkedin         : "aristidesmilios"
-  stackoverflow    : "https://stackoverflow.com/users/2373239/aristides"
+  stackoverflow    : "users/2373239/aristides"
   twitter          : "amilios"
 
 
