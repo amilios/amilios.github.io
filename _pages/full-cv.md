@@ -5,7 +5,9 @@ permalink: /full-cv/
 ---
 
 <style type="text/css" rel="stylesheet">
-h4 { padding-top: 2px; margin-top: 2px; }
+  h2 { text-align: left; }
+  h3 { text-align: left; padding-left: 20px; }
+  h4 { text-align: left; padding-left: 20px; }
 </style>
 
 You can view my full CV in PDF format [here]({{ site.url }}/files/full-cv.pdf).
