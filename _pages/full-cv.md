@@ -4,8 +4,6 @@ title: "Full CV"
 permalink: /full-cv/
 ---
 
-{% include base_path %}
-
 <style type="text/css" rel="stylesheet">
 h4 { padding-top: 2px; margin-top: 2px; }
 </style>
