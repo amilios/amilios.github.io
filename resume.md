@@ -21,7 +21,7 @@ Admitted to the M.Sc. program at McGill University under Dr. Siva Reddy. Co-supe
 * researching large pre-trained language models and knowledge augmentations
 * cGPA of 4.0/4.0
 
-#### Bachelor of Computer Science, Dalhouise University, 2020
+#### Bachelor of Computer Science, Dalhousie University, 2020
 ##### First Class Honours with Co-op
 * graduated with First Class Honours and GPA of 4.13/4.3, in top 10% of class
 * wrote Honours Thesis on NLP topic (novel compact pre-trained BERT embedding), supervised by [Dr. Stan Matwin](https://web.cs.dal.ca/~stan/)
