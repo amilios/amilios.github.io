@@ -1,9 +1,9 @@
 papers:
 
-  - title: "Automatic Fusion of Satellite Imagery and AIS data for Vessel Detection"
-    authors: "<b>Aristides Milios</b>, Konstantina Bereta, Konstantinos Chatzikokolakis, Dimitris Zissis, Stan Matwin"
-    venue: "2019 22th International Conference on Information Fusion (FUSION)."
-    paper_pdf: "https://ieeexplore.ieee.org/abstract/document/9011339"
+  - title: "An Analysis of Social Biases Present in BERT Variants Across Multiple Languages"
+    authors: "<b>Aristides Milios</b>, Parishad BehnamGhader (equal contribution)"
+    venue: "Trustworthy and Socially Responsible Machine Learning (TSRML) Workshop at NeurIPS 2022"
+    paper_pdf: "https://openreview.net/forum?id=ej_ys2P0f1B"
     selected: y
 
   - title: "Survey of Generative Methods for Social Media Analysis"
@@ -17,8 +17,8 @@ papers:
     paper_pdf: "https://www.cmre.nato.int/msaw-2019-home/msaw2019-papers/"
     selected: y
   
-  - title: "An Analysis of Social Biases Present in BERT Variants Across Multiple Languages"
-    authors: "<b>Aristides Milios</b>, Parishad BehnamGhader (equal contribution)"
-    venue: "Trustworthy and Socially Responsible Machine Learning (TSRML) Workshop at NeurIPS 2022"
-    paper_pdf: "https://openreview.net/forum?id=ej_ys2P0f1B"
+  - title: "Automatic Fusion of Satellite Imagery and AIS data for Vessel Detection"
+    authors: "<b>Aristides Milios</b>, Konstantina Bereta, Konstantinos Chatzikokolakis, Dimitris Zissis, Stan Matwin"
+    venue: "2019 22th International Conference on Information Fusion (FUSION)."
+    paper_pdf: "https://ieeexplore.ieee.org/abstract/document/9011339"
     selected: y
