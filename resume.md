@@ -123,3 +123,13 @@ Information Fusion (FUSION), Ottawa, ON, Canada, 2-5 July 2019. [Link](https://i
 <hr>
 
 * A. Milios, D. Zissis, K. Chatzikokolakis, and S. Matwin, "Sail ho! A deep learning approach for ship detection which utilises complimentary sensing capabilities, " 2018 Canadian Tracking and Fusion group (CTFG) Workshop, Ottawa, ON, Canada, 15-16 October 2018.
+
+### Reviewer for
+
+<hr>
+
+* EACL 2023
+* EMNLP 2022
+* ICDAR 2023
+* AKBC 2022
+* CIKM 2022
