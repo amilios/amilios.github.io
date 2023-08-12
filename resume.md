@@ -118,6 +118,7 @@ for having the second-best GPA of my year ($1750 value)
 
 <hr>
 
+* A. Milios and P. BehnamGhader, "An Analysis of Social Biases Present in BERT Variants Across Multiple Languages", Accepted to 2022 Trustworthy and Socially Responsible Machine Learning (TSRML 2022) Workshop at NeurIPS 2022. arXiv: [https://arxiv.org/abs/2211.14402](https://arxiv.org/abs/2211.14402)
 * S. Matwin, A. Milios, P. Pralat, A. Soares, and F. Theberge, "Survey of Generative Methods for Social Media Analysis", arXiv preprint: [https://arxiv.org/abs/2112.07041](https://arxiv.org/abs/2112.07041)
 * K. Bereta, A. Milios, K. Chatzikokolakis, and D. Zissis, "Monitoring Marine Protected Areas using Data Fusion and AI Techniques," NATO CMRE Maritime Situational Awareness
 Workshop, La Spezia, Italy, 8-10 October 2019. [Link](https://www.cmre.nato.int/msaw-2019-home/msaw2019-papers/) [Peer-Reviewed]
@@ -135,7 +136,7 @@ Information Fusion (FUSION), Ottawa, ON, Canada, 2-5 July 2019. [Link](https://i
 <hr>
 
 * EACL 2023
-* EMNLP 2022
 * ICDAR 2023
+* EMNLP 2022
 * AKBC 2022
 * CIKM 2022
