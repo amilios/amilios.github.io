@@ -66,6 +66,11 @@ Entrepreneurship](https://www.dal.ca/faculty/management/nnce.html) (Faculty of M
 
 <hr>
 
+#### VP Communications, [Computer Science Graduate Society](https://csgs.cs.mcgill.ca/)
+* VP Communications for the academic year 2022-2023
+* handled all the society's communications with its constituents (website, Instagram, Discord, mailing list)
+
+
 #### VP Finance, [Computer Science Graduate Society](https://csgs.cs.mcgill.ca/)
 * VP Finance for the academic year 2021-2022
 * architected the [society's website redesign](https://csgs.cs.mcgill.ca)
