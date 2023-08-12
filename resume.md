@@ -98,8 +98,9 @@ Entrepreneurship](https://www.dal.ca/faculty/management/nnce.html) (Faculty of M
 
 <hr>
 
-* [NSERC CGS-M grant](https://www.nserc-crsng.gc.ca/students-etudiants/pg-cs/cgsm-bescm_eng.asp) ($17.5K value)
-* McGill Lorne Trottier Graduate Fellowship ($5K value)
+* [IVADO M.Sc. Excellence Scholarship](https://ivado.ca/en/scholarships-and-grants/msc-excellence-scholarships/) ($40K value) - funding for second year of M.Sc.
+* [NSERC CGS-M grant](https://www.nserc-crsng.gc.ca/students-etudiants/pg-cs/cgsm-bescm_eng.asp) ($17.5K value) - funding for first year of M.Sc.
+* McGill Lorne Trottier Graduate Fellowship ($5K value) - funding for first year of M.Sc.
 * [MITACS Globalink Grant](https://www.mitacs.ca/en/programs/globalink/globalink-research-award) for second co-op term at Dalhousie ($6K value)
 * Dalhousie Schulich Scholarship ($41.9K value)
 * Dalhousie Bruce and Dorothy Rossetti Scholarship Silver Award for a Second-Year student,
