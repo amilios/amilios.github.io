@@ -9,7 +9,7 @@ papers:
   - title: "An Analysis of Social Biases Present in BERT Variants Across Multiple Languages"
     authors: "<b>Aristides Milios</b>, Parishad BehnamGhader (equal contribution)"
     venue: "Trustworthy and Socially Responsible Machine Learning (TSRML) Workshop at NeurIPS 2022"
-    paper_pdf: "https://openreview.net/forum?id=ej_ys2P0f1B"
+    paper_pdf: "https://arxiv.org/abs/2211.14402"
     selected: y
 
   - title: "Survey of Generative Methods for Social Media Analysis"
