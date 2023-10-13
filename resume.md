@@ -19,6 +19,7 @@ Innovation Fellows Program, and presidential role in Dalhousie Entrepreneurship 
 #### M.Sc. in Computer Science, McGill University, 2022
 Admitted to the M.Sc. program at McGill University under Dr. Siva Reddy. Co-supervised by Dr. Dzmitry Bahdanau. 
 * researching large pre-trained language models and knowledge augmentations
+* see Section [Awards](#awards-and-scholarships) for funding details
 * cGPA of 4.0/4.0
 
 #### Bachelor of Computer Science, Dalhousie University, 2020
@@ -32,6 +33,11 @@ Entrepreneurship](https://www.dal.ca/faculty/management/nnce.html) (Faculty of M
 
 <hr>
 
+#### Fall 2022: Teaching Assistant at [McGill University](https://www.mcgill.ca/)
+##### Montreal, Quebec, Canada
+* worked as a Teaching Assistant for Dr. Siva Reddy for course COMP 599 "Natural Language Understanding with Deep Learning/Computational Semantics"
+* designed an assignment from scratch on RNN/LSTM/BiLSTM networks - students implemented cells using basic PyTorch building blocks
+
 #### Fall and Winter 2021: Teaching Assistant at [Dalhousie University](https://www.dal.ca/)
 ##### Halifax, Nova Scotia, Canada
 * CSCI 3162 Digital Media, with [Dr. Dirk Arnold](https://web.cs.dal.ca/~dirk/) (Winter 2021)
@@ -42,6 +48,9 @@ Entrepreneurship](https://www.dal.ca/faculty/management/nnce.html) (Faculty of M
 ### Work Experience
 
 <hr>
+
+#### January 2021 to August 2023: Contractor at [NACO Canada](https://nacocanada.com/)
+* designed a system to one-touch automate the generation of tables and graphs for the NACO yearly investment report using Colab, Pandas, PyExcel, and Matplotlib/Plotly
 
 #### Winter 2021: Student Researcher at [Dalhousie University](https://www.dal.ca/)
 ##### Halifax, Nova Scotia, Canada
@@ -69,7 +78,7 @@ Entrepreneurship](https://www.dal.ca/faculty/management/nnce.html) (Faculty of M
 #### VP Communications, [Computer Science Graduate Society](https://csgs.cs.mcgill.ca/)
 * VP Communications for the academic year 2022-2023
 * handled all the society's communications with its constituents (website, Instagram, Discord, mailing list)
-
+* introduced new communication channel: Society Instagram account
 
 #### VP Finance, [Computer Science Graduate Society](https://csgs.cs.mcgill.ca/)
 * VP Finance for the academic year 2021-2022
@@ -98,7 +107,7 @@ Entrepreneurship](https://www.dal.ca/faculty/management/nnce.html) (Faculty of M
 
 <hr>
 
-* [IVADO M.Sc. Excellence Scholarship](https://ivado.ca/en/scholarships-and-grants/msc-excellence-scholarships/) ($40K value) - funding for second year of M.Sc.
+* [IVADO M.Sc. Excellence Scholarship](https://ivado.ca/en/scholarships-and-grants/msc-excellence-scholarships/) ($40K value) - funding for second year onwards of M.Sc.
 * [NSERC CGS-M grant](https://www.nserc-crsng.gc.ca/students-etudiants/pg-cs/cgsm-bescm_eng.asp) ($17.5K value) - funding for first year of M.Sc.
 * McGill Lorne Trottier Graduate Fellowship ($5K value) - funding for first year of M.Sc.
 * [MITACS Globalink Grant](https://www.mitacs.ca/en/programs/globalink/globalink-research-award) for second co-op term at Dalhousie ($6K value)
@@ -111,14 +120,15 @@ for having the second-best GPA of my year ($1750 value)
 <hr>
 
 * English (native)
-* Greek (native)
+* Greek (native and C2 level of CEFR)
 * French (B2 level of CEFR)
 
 ### Academic Publications
 
 <hr>
 
-* A. Milios and P. BehnamGhader, "An Analysis of Social Biases Present in BERT Variants Across Multiple Languages", Accepted to 2022 Trustworthy and Socially Responsible Machine Learning (TSRML 2022) Workshop at NeurIPS 2022. arXiv: [https://arxiv.org/abs/2211.14402](https://arxiv.org/abs/2211.14402)
+* A. Milios, S. Reddy, D. Bahdanau, "In-Context Learning for Text Classification with Many Labels", Accepted to GenBench workshop at EMNLP 2023 (peer-reviewed, archival). arXiv: [https://arxiv.org/abs/2309.10954](https://arxiv.org/abs/2309.10954)
+* A. Milios and P. BehnamGhader, "An Analysis of Social Biases Present in BERT Variants Across Multiple Languages", Accepted to 2022 Trustworthy and Socially Responsible Machine Learning (TSRML 2022) Workshop at NeurIPS 2022 (peer-reviewed, non-archival). arXiv: [https://arxiv.org/abs/2211.14402](https://arxiv.org/abs/2211.14402)
 * S. Matwin, A. Milios, P. Pralat, A. Soares, and F. Theberge, "Survey of Generative Methods for Social Media Analysis", arXiv preprint: [https://arxiv.org/abs/2112.07041](https://arxiv.org/abs/2112.07041)
 * K. Bereta, A. Milios, K. Chatzikokolakis, and D. Zissis, "Monitoring Marine Protected Areas using Data Fusion and AI Techniques," NATO CMRE Maritime Situational Awareness
 Workshop, La Spezia, Italy, 8-10 October 2019. [Link](https://www.cmre.nato.int/msaw-2019-home/msaw2019-papers/) [Peer-Reviewed]
@@ -135,6 +145,7 @@ Information Fusion (FUSION), Ottawa, ON, Canada, 2-5 July 2019. [Link](https://i
 
 <hr>
 
+* ACL Rolling Review
 * EACL 2023
 * ICDAR 2023
 * EMNLP 2022
