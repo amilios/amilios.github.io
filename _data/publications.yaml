@@ -1,5 +1,11 @@
 papers:
 
+  - title: "LLMs can learn self-restraint through iterative self-reflection"
+    authors: "Alexandre Piché, <b>Aristides Milios</b>, Dzmitry Bahdanau, Chris Pal"
+    venue: "ICLR 2024 Workshop on Secure and Trustworthy Large Language Models"
+    paper_pdf: "https://arxiv.org/abs/2405.13022"
+    selected: y
+
   - title: "In-Context Learning for Text Classification with Many Labels"
     authors: "<b>Aristides Milios</b>, Siva Reddy, Dzmitry Bahdanau"
     venue: "GenBench Workshop at EMNLP 2023"
