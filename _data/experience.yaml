@@ -1,7 +1,13 @@
 experiences:
 
+- place: "Université de Montréal/MILA"
+  time: "Sept. 2024 - now"
+  title: "PhD student"
+  subtitle: "Research into LLM self-improvement and tool use"
+  category: "education"
+
 - place: "McGill University/MILA"
-  time: "2021 - now"
+  time: "Sept. 2021 - April 2024"
   title: "M.Sc. student"
   subtitle: "Research into reasoning capabilities of large LMs"
   category: "education"
