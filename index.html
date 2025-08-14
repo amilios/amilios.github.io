@@ -93,15 +93,31 @@
   .commands {
     position: relative;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 12px;
+    flex-direction: column;
+    gap: 16px;
     padding: 1rem;
     background-color: rgba(0,0,0,0.9);
     border-top: 1px solid #00ff7f;
     backdrop-filter: blur(10px);
     max-width: 100%;
     margin: 0 auto;
+  }
+  .command-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .command-group-header {
+    color: #00ff7f;
+    font-weight: bold;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    opacity: 0.8;
+  }
+  .command-group-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
   }
   .command-btn {
     display: inline-block;
@@ -168,24 +184,43 @@
     </div>
 
     <div class="terminal-content">
-      <div id="terminal-output" class="content-area"></div>
+      <div id="terminal-output" class="content-area" aria-live="polite" aria-label="Terminal output"></div>
       <div class="prompt-line">
         <span class="prompt">aristides@chris-lab:~$</span>
         <span class="cursor"></span>
-        <input type="text" class="input" id="command-input" autofocus />
+        <input type="text" class="input" id="command-input" autofocus aria-label="Terminal command input" />
       </div>
     </div>
 
     <div class="commands">
-      <button class="command-btn" data-command="cat bio.txt">cat bio.txt</button>
-      <button class="command-btn" data-command="ls publications">ls publications</button>
-      <button class="command-btn" data-command="cat summary">cat summary</button>
-      <button class="command-btn" data-command="ls work">ls work</button>
-      <button class="command-btn" data-command="ls awards">ls awards</button>
-      <button class="command-btn" data-command="ls leadership">ls leadership</button>
-      <button class="command-btn" data-command="ls education">ls education</button>
-      <button class="command-btn" data-command="ls contact">ls contact</button>
-      <button class="command-btn" data-command="wget resume.pdf">wget resume.pdf</button>
+      <div class="command-group">
+        <div class="command-group-header">FILES:</div>
+        <div class="command-group-buttons">
+          <button class="command-btn" data-command="cat bio.txt" aria-label="Show biography">cat bio.txt</button>
+          <button class="command-btn" data-command="cat research.txt" aria-label="Show research focus">cat research.txt</button>
+          <button class="command-btn" data-command="cat timeline.txt" aria-label="Show timeline">cat timeline.txt</button>
+        </div>
+      </div>
+      
+      <div class="command-group">
+        <div class="command-group-header">DIRECTORIES:</div>
+        <div class="command-group-buttons">
+          <button class="command-btn" data-command="ls publications/" aria-label="List publications">ls publications/</button>
+          <button class="command-btn" data-command="ls work/" aria-label="List work experience">ls work/</button>
+          <button class="command-btn" data-command="ls teaching/" aria-label="List teaching experience">ls teaching/</button>
+          <button class="command-btn" data-command="ls awards/" aria-label="List awards and scholarships">ls awards/</button>
+          <button class="command-btn" data-command="ls leadership/" aria-label="List leadership experience">ls leadership/</button>
+          <button class="command-btn" data-command="ls education/" aria-label="List education">ls education/</button>
+          <button class="command-btn" data-command="ls contact/" aria-label="Show contact information">ls contact/</button>
+        </div>
+      </div>
+      
+      <div class="command-group">
+        <div class="command-group-header">NETWORK:</div>
+        <div class="command-group-buttons">
+          <button class="command-btn" data-command="wget resume.pdf" aria-label="Download resume PDF">wget resume.pdf</button>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -220,6 +255,20 @@ I've done research internships at <a href="https://www.marinetraffic.com/" class
 I have a B.Comp.Sci from <a href="https://www.dal.ca/" class="terminal-link" target="_blank">Dalhousie</a> (First Class Honours), an M.Sc. from <a href="https://www.mcgill.ca/" class="terminal-link" target="_blank">McGill</a>/<a href="https://mila.quebec/en/" class="terminal-link" target="_blank">Mila</a> under <a href="https://sivareddy.in/" class="terminal-link" target="_blank">Siva Reddy</a> and <a href="https://rizar.github.io/" class="terminal-link" target="_blank">Dzmitry Bahdanau</a>, and am currently working on a Ph.D. at <a href="https://www.umontreal.ca/" class="terminal-link" target="_blank">Université de Montréal</a> under <a href="https://mila.quebec/en/directory/chris-pal" class="terminal-link" target="_blank">Chris Pal</a>.
     </div>
 
+    <div id="cat-research-txt">
+==================
+  RESEARCH FOCUS
+==================
+
+[Placeholder text - detailed research focus and current PhD work to be added]
+
+My current research centers on improving the reliability and trustworthiness of large language models, particularly focusing on:
+- Hallucination detection and reduction techniques
+- Uncertainty quantification in neural language models  
+- Learning to abstain frameworks for AI systems
+- [Add more specific details about methodologies, approaches, and current projects]
+    </div>
+
     <div id="ls-publications">
 ================
   PUBLICATIONS
@@ -233,7 +282,7 @@ I have a B.Comp.Sci from <a href="https://www.dal.ca/" class="terminal-link" tar
 - <a href="https://ieeexplore.ieee.org/abstract/document/9011339" class="terminal-link" target="_blank">Automatic Fusion of Satellite Imagery and AIS data for Vessel Detection</a> (FUSION 2019)
     </div>
 
-    <div id="cat-summary">
+    <div id="cat-timeline-txt">
 ============
   TIMELINE
 ============
@@ -263,6 +312,24 @@ March 2025: started <a href="https://www.mitacs.ca/our-programs/accelerate/" cla
   -> Active Learning for Recommender Systems, RNNs with Attention
 - <a href="https://www.marinetraffic.com/" class="terminal-link" target="_blank">MarineTraffic Inc.</a>, Athens, Greece (Summer 2018, Winter 2019)
   -> AIS data fusion with satellite imagery for maritime awareness
+    </div>
+
+    <div id="ls-teaching">
+=====================
+  TEACHING EXPERIENCE
+=====================
+
+<b>Fall 2022, Spring 2024: Teaching Assistant at <a href="https://www.mcgill.ca/" class="terminal-link" target="_blank">McGill University</a></b>
+Montreal, Quebec, Canada
+- Teaching Assistant for Dr. Siva Reddy for course COMP 599 "Natural Language Understanding with Deep Learning/Computational Semantics"
+- Designed an assignment from scratch on RNN/LSTM/BiLSTM networks - students implemented cells using basic PyTorch building blocks
+
+<b>Fall and Winter 2021: Teaching Assistant at <a href="https://www.dal.ca/" class="terminal-link" target="_blank">Dalhousie University</a></b>
+Halifax, Nova Scotia, Canada
+- CSCI 3162 Digital Media, with <a href="https://web.cs.dal.ca/~dirk/" class="terminal-link" target="_blank">Dr. Dirk Arnold</a> (Winter 2021)
+- CSCI 3141 Foundations of Data Science using R, with <a href="https://web.cs.dal.ca/~ltorgo/" class="terminal-link" target="_blank">Dr. Luis Torgo</a> (Fall 2020)
+- CSCI 2170 Server-side Scripting, with <a href="https://web.cs.dal.ca/~bmackay/" class="terminal-link" target="_blank">Dr. Bonnie MacKay</a> (Fall 2020)
+- CSCI 2141 Intro to Database Systems, with <a href="https://www.dal.ca/faculty/computerscience/faculty-staff/khurram-aziz.html" class="terminal-link" target="_blank">Dr. Khurram Aziz</a> (Fall 2020)
     </div>
 
     <div id="ls-awards">
@@ -357,13 +424,15 @@ function getContentById(id) {
 const responses = {
   'cat intro.txt': getContentById('cat-intro-txt'),
   'cat bio.txt': getContentById('cat-bio-txt'),
-  'ls publications': getContentById('ls-publications'),
-  'cat summary': getContentById('cat-summary'),
-  'ls work': getContentById('ls-work'),
-  'ls awards': getContentById('ls-awards'),
-  'ls leadership': getContentById('ls-leadership'),
-  'ls education': getContentById('ls-education'),
-  'ls contact': getContentById('ls-contact'),
+  'cat research.txt': getContentById('cat-research-txt'),
+  'ls publications/': getContentById('ls-publications'),
+  'cat timeline.txt': getContentById('cat-timeline-txt'),
+  'ls work/': getContentById('ls-work'),
+  'ls teaching/': getContentById('ls-teaching'),
+  'ls awards/': getContentById('ls-awards'),
+  'ls leadership/': getContentById('ls-leadership'),
+  'ls education/': getContentById('ls-education'),
+  'ls contact/': getContentById('ls-contact'),
   'wget resume.pdf': getContentById('wget-resume-pdf')
 };
 
