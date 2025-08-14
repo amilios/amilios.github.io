@@ -127,10 +127,43 @@
     padding: 4px 8px;
     cursor: pointer;
     transition: background-color 0.2s, color 0.2s;
+    white-space: nowrap;
   }
   .command-btn:hover {
     background-color: #00ff7f;
     color: #0a0a0a;
+  }
+
+  /* Mobile responsive - single scrollable row */
+  @media (max-width: 600px) {
+    .commands {
+      flex-direction: row;
+      gap: 12px;
+      overflow-x: auto;
+      overflow-y: hidden;
+      padding: 1rem;
+      position: relative;
+      /* Smooth scrolling */
+      scroll-behavior: smooth;
+      -webkit-overflow-scrolling: touch;
+    }
+    .command-group {
+      flex-direction: row;
+      gap: 8px;
+      flex-shrink: 0;
+    }
+    .command-group-header {
+      display: none; /* Hide headers on mobile for space */
+    }
+    .command-group-buttons {
+      flex-wrap: nowrap;
+      gap: 8px;
+    }
+    .command-btn {
+      padding: 6px 10px;
+      font-size: 0.85rem;
+      flex-shrink: 0;
+    }
   }
   .terminal-link {
     color: #00ff7f;
@@ -260,13 +293,10 @@ I have a B.Comp.Sci from <a href="https://www.dal.ca/" class="terminal-link" tar
   RESEARCH FOCUS
 ==================
 
-[Placeholder text - detailed research focus and current PhD work to be added]
-
 My current research centers on improving the reliability and trustworthiness of large language models, particularly focusing on:
 - Hallucination detection and reduction techniques
-- Uncertainty quantification in neural language models  
-- Learning to abstain frameworks for AI systems
-- [Add more specific details about methodologies, approaches, and current projects]
+- Uncertainty quantification in neural language models
+- Teaching LLMs to abstain when they are uncertain enough
     </div>
 
     <div id="ls-publications">
