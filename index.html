@@ -437,6 +437,21 @@ resume.pdf      100%[=============>] 240K  1.2MB/s    in 0.2s
 <a href="https://atmilios.com/resume.pdf" class="terminal-link" target="_blank">Click here to open resume.pdf</a>
     </div>
 
+    <div id="whoami">
+An intrepid ML researcher who thinks LLMs should know when to say "I don't know" 🤖
+Currently teaching machines to be humble (with mixed results).
+    </div>
+
+    <div id="ps-aux">
+USER       PID  %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+aristides 1337  95.2  87.3 999999 42042 pts/0   R+   09:00  47:23 neural_network_training --epochs=∞
+aristides 1339   2.3   5.7  16384  2048 pts/2   S    14:15   1:42 paper_writing --deadline=yesterday
+aristides 1340   0.0   0.1    512   256 pts/3   S    15:30   0:01 debugging_life
+aristides 1341  15.7  12.4  32768  4096 pts/4   R    16:00   8:15 procrastinating --mode=reddit
+aristides 1342   1.1   3.2   8192  1536 pts/5   S    16:45   0:22 impostor_syndrome --silent
+root      1343  99.9  99.9 ∞∞∞∞∞ ∞∞∞∞∞ ?       R    00:00 999:59 uncertainty_quantification
+    </div>
+
   </div>
 
 <script>
@@ -463,7 +478,9 @@ const responses = {
   'ls leadership/': getContentById('ls-leadership'),
   'ls education/': getContentById('ls-education'),
   'ls contact/': getContentById('ls-contact'),
-  'wget resume.pdf': getContentById('wget-resume-pdf')
+  'wget resume.pdf': getContentById('wget-resume-pdf'),
+  'ps aux': getContentById('ps-aux'),
+  'whoami': getContentById('whoami')
 };
 
 function typeText(text, container, callback) {
